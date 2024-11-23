@@ -1,0 +1,24 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 16px 0;
+    color: white;
+}
+
+.previous-btn,
+.next-btn {
+  padding: 5px;
+  border-radius: 2px;
+  border: 1px solid orchid;
+  color: white;
+  background: lightsalmon;
+  cursor: pointer;
+}
+
+.previous-btn:disabled,
+.next-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
